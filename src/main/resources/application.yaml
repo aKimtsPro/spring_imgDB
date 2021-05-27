@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:employeDB
+    username: root
+    password: 1234
+  jpa:
+    show-sql: true
