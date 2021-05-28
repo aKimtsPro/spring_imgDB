@@ -1,4 +1,4 @@
-package bstrom.akimts.demo_JUNIT.exception;
+package bstrom.akimts.demo_imgDB.exception;
 
 public class DivideByZeroException extends RuntimeException {
 

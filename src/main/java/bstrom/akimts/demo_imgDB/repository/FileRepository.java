@@ -1,6 +1,6 @@
-package bstrom.akimts.demo_JUNIT.repository;
+package bstrom.akimts.demo_imgDB.repository;
 
-import bstrom.akimts.demo_JUNIT.entity.File;
+import bstrom.akimts.demo_imgDB.entity.File;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

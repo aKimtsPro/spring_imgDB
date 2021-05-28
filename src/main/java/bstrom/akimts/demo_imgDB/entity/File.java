@@ -1,4 +1,4 @@
-package bstrom.akimts.demo_JUNIT.entity;
+package bstrom.akimts.demo_imgDB.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -8,17 +8,23 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 
 @Entity
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-@Data
-public class Employe {
+public class File {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-    @Column(unique = true)
-    private String nom;
+    private long id;
+
     @Column
-    private float salaire;
+    private String name;
+
+    @Column
+    private String type;
+
+    @Column( length = 402400)
+    private byte[] bytes;
+
 }

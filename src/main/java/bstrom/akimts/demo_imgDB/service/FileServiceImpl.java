@@ -1,9 +1,9 @@
-package bstrom.akimts.demo_JUNIT.service;
+package bstrom.akimts.demo_imgDB.service;
 
-import bstrom.akimts.demo_JUNIT.entity.File;
-import bstrom.akimts.demo_JUNIT.exception.NotFoundException;
-import bstrom.akimts.demo_JUNIT.model.FileDTO;
-import bstrom.akimts.demo_JUNIT.repository.FileRepository;
+import bstrom.akimts.demo_imgDB.entity.File;
+import bstrom.akimts.demo_imgDB.exception.NotFoundException;
+import bstrom.akimts.demo_imgDB.model.FileDTO;
+import bstrom.akimts.demo_imgDB.repository.FileRepository;
 import org.springframework.stereotype.Service;
 
 import java.io.ByteArrayOutputStream;

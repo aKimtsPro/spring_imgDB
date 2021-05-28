@@ -1,8 +1,7 @@
-package bstrom.akimts.demo_JUNIT.controller;
+package bstrom.akimts.demo_imgDB.controller;
 
-import bstrom.akimts.demo_JUNIT.model.FileDTO;
-import bstrom.akimts.demo_JUNIT.repository.FileRepository;
-import bstrom.akimts.demo_JUNIT.service.FileService;
+import bstrom.akimts.demo_imgDB.model.FileDTO;
+import bstrom.akimts.demo_imgDB.service.FileService;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 

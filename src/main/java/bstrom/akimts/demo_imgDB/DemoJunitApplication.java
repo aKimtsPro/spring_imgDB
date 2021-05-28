@@ -1,4 +1,4 @@
-package bstrom.akimts.demo_JUNIT;
+package bstrom.akimts.demo_imgDB;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
